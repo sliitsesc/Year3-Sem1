@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book client</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="book.js"></script>
+    </head>
+
+    <h2>Books Client</h2>
+ 	Book Id : <br/>
+	<input type="text" id="id" /> 
+	<button onclick="getDetails()">Details </button>
+	<p />
+        <div id="title"></div>
+	<p />
+        <div id="price"></div>
+        
+     </br>
+     <h2>Add New Book</h2>
+     <table>
+     	<tr>
+     		<td>Book ID : </td>
+     		<td><input type="text" id="InsertBookId"></td>
+     	</tr>
+     	<tr>
+     		<td>Book Name : </td>
+     		<td><input type="text" id="InsertBookName"></td>
+     	</tr>
+     	<tr>
+     		<td>Book Price : </td>
+     		<td><input type="text" id="InsertBookPrice"></td>
+     	</tr>
+     	<tr>
+     		<td><button onclick="addNewBook()">Add </button></td>	
+     		<td><p id="message"></p></td>	
+     	</tr>
+     </table>
+     
+      </br>
+     <h2>Delete a Book</h2>
+     <table>
+     	<tr>
+     		<td>Book ID : </td>
+     		<td><input type="text" id="DeleteBookId"></td>
+     	</tr>
+     	<tr>
+     		<td><button onclick="deleteBook()">Delete </button></td>	
+     		<td><p id="Deletemessage"></p></td>	
+     	</tr>
+     </table>
+</html>
