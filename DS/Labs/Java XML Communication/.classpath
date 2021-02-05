@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/SLIIT/3rd Year/Semester 1/3rd yr SE/DS - Distributed Systems/New folder/lab5/geronimo-activation_1.1_spec-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/SLIIT/3rd Year/Semester 1/3rd yr SE/DS - Distributed Systems/New folder/lab5/org.apache.servicemix.specs.jaxb-api-2.3-2.3_3.jar"/>
+	<classpathentry kind="lib" path="E:/SLIIT/3rd Year/Semester 1/3rd yr SE/DS - Distributed Systems/New folder/lab5/org.apache.servicemix.specs.stax-api-1.0-2.9.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
